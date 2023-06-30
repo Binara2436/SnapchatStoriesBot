@@ -10,11 +10,11 @@ logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 
 class ENV_VARS(object):
-    API_ID = int(os.environ.get("API_ID", "20219667"))
-    API_HASH = os.environ.get("API_HASH" , "82b82bcd10c857178cc49e22f5e8d67c" )
-    BOT_TOKEN = os.environ.get("BOT_TOKEN" , "6299210485:AAEb3tjYjE8DmwqX8ZCQ98kx8XcA3Q9Vals")
-    BOT_USERNAME = os.environ.get("BOT_USERNAME" , "spectreurluploaderbot")
-    #AUTH_USER = int(os.environ.get("AUTH_USER", 5071059420))
+    API_ID = int(os.environ.get("API_ID", ""))
+    API_HASH = os.environ.get("API_HASH" , "" )
+    BOT_TOKEN = os.environ.get("BOT_TOKEN" , "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME" , "")
+    #AUTH_USER = int(os.environ.get("AUTH_USER", ))
 
 
 Config = ENV_VARS
